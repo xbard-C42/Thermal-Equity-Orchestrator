@@ -31,7 +31,7 @@ An interactive React application that simulates justice-first thermal cooling st
 
 ## 🎬 Demo
 
-> *Insert animated GIF or link to live demo here*
+> *[Live demo here](https://42.community/c42os-thermal-equity-orchestrator/)*
 
 ---
 
