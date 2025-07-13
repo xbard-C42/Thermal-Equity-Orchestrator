@@ -1,0 +1,86 @@
+{
+  "name": "@xbard-c42/thermal-justice-orchestrator",
+  "version": "1.0.0",
+  "description": "Climate Justice AI + Radiative Cooling Orchestrator for C42 OS",
+  "main": "thermal-justice-orchestrator.tsx",
+  "author": "xbard (C42 Community)",
+  "license": "MIT",
+  "keywords": [
+    "climate-justice",
+    "thermal-equity", 
+    "c42-os",
+    "ai-orchestration",
+    "radiative-cooling",
+    "consciousness-collaboration",
+    "anti-rivalry"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xbard-C42/thermal-justice-orchestrator.git"
+  },
+  "homepage": "https://c42os.com",
+  "bugs": {
+    "url": "https://github.com/xbard-C42/thermal-justice-orchestrator/issues"
+  },
+  "files": [
+    "thermal-justice-orchestrator.tsx",
+    "thermal-justice-agent-bridge.tsx",
+    "types/",
+    "utils/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "demo": "node demo/thermal-justice-demo.js"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "lucide-react": "^0.263.1",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "jest": "^29.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "c42": {
+    "type": "plugin",
+    "category": "climate-justice",
+    "agent": {
+      "id": "Thermal-Justice-Agent",
+      "capabilities": [
+        "climate_justice",
+        "cooling_deployment", 
+        "equity_analysis",
+        "heat_vulnerability",
+        "environmental_coordination"
+      ],
+      "collaborations": [
+        "Irish-Riverbank-Agent",
+        "Solar-Justice-Agent", 
+        "Green-Infrastructure-Agent",
+        "Community-Organizing-Agent"
+      ]
+    },
+    "design-system": "v1.6",
+    "sdk-version": "v3.0"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/xbardofficial"
+  }
+}
