@@ -1,37 +1,46 @@
 # Thermal Equity Orchestrator
 
+
+
+&#x20; &#x20;
+
 An interactive React application that simulates justice-first thermal cooling strategies across urban neighborhoods. Leveraging AI-driven agents and radiative cooling techniques, this tool visualizes and prioritizes cooling deployment to maximize equity and impact.
 
-## Table of Contents
+---
 
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## 🌐 Table of Contents
 
-## Features
+- [✨ Features](#-features)
+- [🎬 Demo](#-demo)
+- [⚙️ Installation](#️-installation)
+- [🚀 Usage](#-usage)
+- [📂 Project Structure](#-project-structure)
+- [🛠️ Technologies](#️-technologies)
+- [📈 GitHub Stats](#-github-stats)
+- [🤝 Contributing](#-contributing)
+- [⚖️ License](#️-license)
+- [📞 Contact](#-contact)
 
-- **Consciousness Council**: Four AI agents (Metamaterial Specialist, Cool Coating Coordinator, Weather Pattern AI, Justice Advocate) collaborate in real time.
+## ✨ Features
+
+- **Consciousness Council**: Four AI agents collaborate in real time (Metamaterials, Cool Coatings, Weather Patterns, Justice Advocacy).
 - **Justice-First Logic**: Vulnerable areas (Critical & High risk) receive prioritized cooling.
-- **Interactive Deployment**: Step-by-step orchestration with progress bar and dynamic metrics.
-- **Equity Metrics**: Tracks total cooling achieved and equity score.
-- **Responsive UI**: Dark/light mode, Tailwind CSS styling, Lucide iconography.
+- **Interactive Deployment**: Step-by-step orchestration with progress bar, animated transitions, and dynamic metrics.
+- **Equity Dashboard**: Real-time visualizations of total cooling and equity score with smooth CSS animations.
+- **Dark & Light Mode**: Toggle theme with seamless transitions.
 
-## Demo
+## 🎬 Demo
 
 > *Insert animated GIF or link to live demo here*
 
-## Installation
+---
+
+## ⚙️ Installation
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-org/thermal-equity-orchestrator.git
+   git clone https://github.com/xbard-C42/thermal-equity-orchestrator.git
    cd thermal-equity-orchestrator
    ```
 
@@ -55,55 +64,76 @@ An interactive React application that simulates justice-first thermal cooling st
    npm run build
    ```
 
-## Usage
+---
 
-1. Open your browser at `http://localhost:3000` (or the port indicated).
-2. Click **Start Thermal Justice AI** to begin the orchestration sequence.
-3. Monitor the progress bar, active agents, and neighborhood temperatures.
-4. Click **Reset** to restart the simulation.
+## 🚀 Usage
 
-Customize initial neighborhood data by editing `src/thermal-equity-orchestrator2.tsx`:
+1. Navigate to `http://localhost:3000` in your browser.
+2. Click **Start Thermal Justice AI** to begin orchestration.
+3. Watch agents deploy, temperatures drop, and equity score rise with animated charts.
+4. Use the **Reset** button or keyboard shortcut (⌘+R) to restart the simulation.
+
+Customize initial data in `src/thermal-equity-orchestrator2.tsx`:
 
 ```ts
 const initialNeighbourhoods = [ /* ... */ ];
 ```
 
-## Project Structure
+---
 
-```
-├── public/               # Static assets
+## 📂 Project Structure
+
+```plain
+├── public/               # Static assets (icons, images)
 ├── src/
-│   ├── components/       # Reusable UI components
+│   ├── components/       # Reusable UI components (cards, buttons, charts)
+│   ├── hooks/            # Custom React hooks (useAgents, useEquityMetrics)
 │   ├── thermal-equity-orchestrator2.tsx  # Main orchestrator view
-│   ├── index.tsx         # Application entry point
-│   └── styles/           # Global CSS and Tailwind config
+│   ├── index.tsx         # App entry point
+│   └── styles/           # Tailwind config & global CSS
+├── .github/workflows/    # CI/CD pipelines
 ├── package.json
 ├── tsconfig.json
 └── README.md             # Project overview
 ```
 
-## Technologies
+---
 
-- **React** & **TypeScript**
-- **Tailwind CSS** for utility-first styling
-- **Lucide-React** icons
-- **Vite** or **Create React App** for bundling (adjust per setup)
+## 🛠️ Technologies
 
-## Contributing
+&#x20; &#x20;
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feat/new-feature`
-3. Commit your changes: \`git commit -m "feat: add new feature"
-4. Push to the branch: `git push origin feat/new-feature`
-5. Open a Pull Request and describe your changes
+---
 
-Please follow the [Microsoft TypeScript Style Guide](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines) and ensure all linting checks pass.
+## 📈 GitHub Stats
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-Created and maintained by **Your Name**. For questions or suggestions, open an issue or reach out at [[email@example.com](mailto\:email@example.com)].
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feat/your-feature`
+3. Commit changes: `git commit -m "feat: add your feature"`
+4. Push: `git push origin feat/your-feature`
+5. Open a Pull Request
+
+Please follow the [Microsoft TypeScript Style Guide](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines) and ensure all lint checks pass.
+
+---
+
+## ⚖️ License
+
+See [LICENSE](LICENSE) for details.
+
+---
+
+## 📞 Contact
+
+Maintained by **xbard**. Questions or feedback? [Open an issue](https://github.com/xbard-C42/thermal-equity-orchestrator/issues) or email at [research@42.community](mailto\:research@42.community).
+
+
 
